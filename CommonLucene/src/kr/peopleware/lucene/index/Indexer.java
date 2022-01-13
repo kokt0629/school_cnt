@@ -20,7 +20,7 @@ import org.apache.lucene.util.Version;
 public class Indexer {
 	private static PropertiesManager propertiesManager;
 	private static IndexWriter writer = null;	
-	public Indexer(){
+	public Indexer(){ 
 		;
 	}
 	public Indexer(Analyzer analyzer,String propertiesFileName){
